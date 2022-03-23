@@ -21,6 +21,7 @@
 		A57BB84127EAF61900C0046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB84027EAF61900C0046D /* Assets.xcassets */; };
 		A57BB84427EAF61900C0046D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB84327EAF61900C0046D /* Preview Assets.xcassets */; };
 		A57BB84927EAFCE400C0046D /* ZStackPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57BB84827EAFCE400C0046D /* ZStackPracticeView.swift */; };
+		A57BB84B27EB01E200C0046D /* OverlayPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57BB84A27EB01E200C0046D /* OverlayPracticeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A57BB84027EAF61900C0046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57BB84327EAF61900C0046D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A57BB84827EAFCE400C0046D /* ZStackPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackPracticeView.swift; sourceTree = "<group>"; };
+		A57BB84A27EB01E200C0046D /* OverlayPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPracticeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				A57BB83C27EAF61800C0046D /* LazyStackPracticeApp.swift */,
 				A57BB83E27EAF61800C0046D /* LazyStackPracticeView.swift */,
 				A57BB84827EAFCE400C0046D /* ZStackPracticeView.swift */,
+				A57BB84A27EB01E200C0046D /* OverlayPracticeView.swift */,
 				A57BB84027EAF61900C0046D /* Assets.xcassets */,
 				A57BB84227EAF61900C0046D /* Preview Content */,
 			);
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57BB84B27EB01E200C0046D /* OverlayPracticeView.swift in Sources */,
 				A57BB84927EAFCE400C0046D /* ZStackPracticeView.swift in Sources */,
 				A57BB83F27EAF61800C0046D /* LazyStackPracticeView.swift in Sources */,
 				A57BB83D27EAF61800C0046D /* LazyStackPracticeApp.swift in Sources */,
