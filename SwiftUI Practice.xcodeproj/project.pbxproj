@@ -16,6 +16,11 @@
 		A5357E2827EAF2340076D070 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5357E2727EAF2340076D070 /* SecondView.swift */; };
 		A57BB83227EAF37200C0046D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB83127EAF37200C0046D /* Preview Assets.xcassets */; };
 		A57BB83527EAF39900C0046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB83427EAF39900C0046D /* Assets.xcassets */; };
+		A57BB83D27EAF61800C0046D /* LazyStackPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57BB83C27EAF61800C0046D /* LazyStackPracticeApp.swift */; };
+		A57BB83F27EAF61800C0046D /* LazyStackPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57BB83E27EAF61800C0046D /* LazyStackPracticeView.swift */; };
+		A57BB84127EAF61900C0046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB84027EAF61900C0046D /* Assets.xcassets */; };
+		A57BB84427EAF61900C0046D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB84327EAF61900C0046D /* Preview Assets.xcassets */; };
+		A57BB84927EAFCE400C0046D /* ZStackPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57BB84827EAFCE400C0046D /* ZStackPracticeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,12 @@
 		A5357E2727EAF2340076D070 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		A57BB83127EAF37200C0046D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A57BB83427EAF39900C0046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		A57BB83A27EAF61800C0046D /* StackPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57BB83C27EAF61800C0046D /* LazyStackPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackPracticeApp.swift; sourceTree = "<group>"; };
+		A57BB83E27EAF61800C0046D /* LazyStackPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackPracticeView.swift; sourceTree = "<group>"; };
+		A57BB84027EAF61900C0046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57BB84327EAF61900C0046D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A57BB84827EAFCE400C0046D /* ZStackPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackPracticeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A57BB83727EAF61800C0046D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +73,7 @@
 			children = (
 				A5357DCE27EAF1A20076D070 /* SwiftUI Practice */,
 				A5357DFE27EAF1D50076D070 /* LifeCyclePractice */,
+				A57BB83B27EAF61800C0046D /* StackPractice */,
 				A5357DCD27EAF1A20076D070 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +83,7 @@
 			children = (
 				A5357DCC27EAF1A20076D070 /* SwiftUI Practice.app */,
 				A5357DFD27EAF1D50076D070 /* LifeCyclePractice.app */,
+				A57BB83A27EAF61800C0046D /* StackPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +127,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A57BB83B27EAF61800C0046D /* StackPractice */ = {
+			isa = PBXGroup;
+			children = (
+				A57BB83C27EAF61800C0046D /* LazyStackPracticeApp.swift */,
+				A57BB83E27EAF61800C0046D /* LazyStackPracticeView.swift */,
+				A57BB84827EAFCE400C0046D /* ZStackPracticeView.swift */,
+				A57BB84027EAF61900C0046D /* Assets.xcassets */,
+				A57BB84227EAF61900C0046D /* Preview Content */,
+			);
+			path = StackPractice;
+			sourceTree = "<group>";
+		};
+		A57BB84227EAF61900C0046D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A57BB84327EAF61900C0046D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +184,23 @@
 			productReference = A5357DFD27EAF1D50076D070 /* LifeCyclePractice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A57BB83927EAF61800C0046D /* StackPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57BB84527EAF61900C0046D /* Build configuration list for PBXNativeTarget "StackPractice" */;
+			buildPhases = (
+				A57BB83627EAF61800C0046D /* Sources */,
+				A57BB83727EAF61800C0046D /* Frameworks */,
+				A57BB83827EAF61800C0046D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackPractice;
+			productName = LazyStackPractice;
+			productReference = A57BB83A27EAF61800C0046D /* StackPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,6 +215,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					A5357DFC27EAF1D50076D070 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A57BB83927EAF61800C0046D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -177,6 +237,7 @@
 			targets = (
 				A5357DCB27EAF1A20076D070 /* SwiftUI Practice */,
 				A5357DFC27EAF1D50076D070 /* LifeCyclePractice */,
+				A57BB83927EAF61800C0046D /* StackPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +261,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A57BB83827EAF61800C0046D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57BB84427EAF61900C0046D /* Preview Assets.xcassets in Resources */,
+				A57BB84127EAF61900C0046D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,6 +289,16 @@
 				A5357E2827EAF2340076D070 /* SecondView.swift in Sources */,
 				A5357E0227EAF1D50076D070 /* FirstView.swift in Sources */,
 				A5357E0027EAF1D50076D070 /* LifeCyclePracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57BB83627EAF61800C0046D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57BB84927EAFCE400C0046D /* ZStackPracticeView.swift in Sources */,
+				A57BB83F27EAF61800C0046D /* LazyStackPracticeView.swift in Sources */,
+				A57BB83D27EAF61800C0046D /* LazyStackPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +537,64 @@
 			};
 			name = Release;
 		};
+		A57BB84627EAF61900C0046D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StackPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = GTB6BR222W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.LazyStackPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A57BB84727EAF61900C0046D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StackPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = GTB6BR222W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.LazyStackPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -483,6 +621,15 @@
 			buildConfigurations = (
 				A5357E1F27EAF1D60076D070 /* Debug */,
 				A5357E2027EAF1D60076D070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57BB84527EAF61900C0046D /* Build configuration list for PBXNativeTarget "StackPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57BB84627EAF61900C0046D /* Debug */,
+				A57BB84727EAF61900C0046D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
