@@ -11,6 +11,10 @@
 		A50CB3EF27EC96AE008FB2C5 /* TabViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB3EE27EC96AE008FB2C5 /* TabViewPractice.swift */; };
 		A50CB3F127EC96AF008FB2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB3F027EC96AE008FB2C5 /* Assets.xcassets */; };
 		A50CB3F427EC96AF008FB2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB3F327EC96AF008FB2C5 /* Preview Assets.xcassets */; };
+		A50CB3FF27EC9DCD008FB2C5 /* ContainerPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB3FE27EC9DCD008FB2C5 /* ContainerPracticeApp.swift */; };
+		A50CB40127EC9DCD008FB2C5 /* LazyVGridPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB40027EC9DCD008FB2C5 /* LazyVGridPracticeView.swift */; };
+		A50CB40327EC9DCE008FB2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB40227EC9DCE008FB2C5 /* Assets.xcassets */; };
+		A50CB40627EC9DCE008FB2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB40527EC9DCE008FB2C5 /* Preview Assets.xcassets */; };
 		A5357DD027EAF1A20076D070 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5357DCF27EAF1A20076D070 /* SwiftUI_PracticeApp.swift */; };
 		A5357DD227EAF1A20076D070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5357DD127EAF1A20076D070 /* ContentView.swift */; };
 		A5357DD427EAF1A20076D070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5357DD327EAF1A20076D070 /* Assets.xcassets */; };
@@ -31,6 +35,14 @@
 		A57BB85727EB08CE00C0046D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB85627EB08CE00C0046D /* Assets.xcassets */; };
 		A57BB85A27EB08CE00C0046D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57BB85927EB08CE00C0046D /* Preview Assets.xcassets */; };
 		A57BB85F27EB0BB200C0046D /* NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57BB85E27EB0BB200C0046D /* NavigationDestinationView.swift */; };
+		A5AD836527ECA79100B88CE6 /* ContainerPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD836427ECA79100B88CE6 /* ContainerPracticeView.swift */; };
+		A5AD836727ECA7F200B88CE6 /* LazyHGridPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD836627ECA7F200B88CE6 /* LazyHGridPracticeView.swift */; };
+		A5AD836927ECA8E700B88CE6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD836827ECA8E700B88CE6 /* ContentViewModel.swift */; };
+		A5AD836D27ECBBFF00B88CE6 /* ForEachPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD836C27ECBBFF00B88CE6 /* ForEachPracticeView.swift */; };
+		A5AD837027ECBF5000B88CE6 /* ListPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD836F27ECBF5000B88CE6 /* ListPracticeView.swift */; };
+		A5AD837227ECC14B00B88CE6 /* ListPracticeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD837127ECC14B00B88CE6 /* ListPracticeDetailView.swift */; };
+		A5AD837427ECC3E100B88CE6 /* HierarchyListPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD837327ECC3E100B88CE6 /* HierarchyListPracticeView.swift */; };
+		A5AD837B27ECCF0200B88CE6 /* FormPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD837A27ECCF0200B88CE6 /* FormPracticeView.swift */; };
 		A5EA1EDC27EB57A40007B0F1 /* AsyncAwaitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EA1EDB27EB57A40007B0F1 /* AsyncAwaitPracticeApp.swift */; };
 		A5EA1EDE27EB57A40007B0F1 /* AsyncAwaitPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EA1EDD27EB57A40007B0F1 /* AsyncAwaitPracticeView.swift */; };
 		A5EA1EE027EB57A40007B0F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EA1EDF27EB57A40007B0F1 /* Assets.xcassets */; };
@@ -47,6 +59,11 @@
 		A50CB3EE27EC96AE008FB2C5 /* TabViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPractice.swift; sourceTree = "<group>"; };
 		A50CB3F027EC96AE008FB2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A50CB3F327EC96AF008FB2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A50CB3FC27EC9DCD008FB2C5 /* ContainerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CB3FE27EC9DCD008FB2C5 /* ContainerPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPracticeApp.swift; sourceTree = "<group>"; };
+		A50CB40027EC9DCD008FB2C5 /* LazyVGridPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridPracticeView.swift; sourceTree = "<group>"; };
+		A50CB40227EC9DCE008FB2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50CB40527EC9DCE008FB2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5357DCC27EAF1A20076D070 /* SwiftUI Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5357DCF27EAF1A20076D070 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		A5357DD127EAF1A20076D070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +88,14 @@
 		A57BB85627EB08CE00C0046D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57BB85927EB08CE00C0046D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A57BB85E27EB0BB200C0046D /* NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationView.swift; sourceTree = "<group>"; };
+		A5AD836427ECA79100B88CE6 /* ContainerPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPracticeView.swift; sourceTree = "<group>"; };
+		A5AD836627ECA7F200B88CE6 /* LazyHGridPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridPracticeView.swift; sourceTree = "<group>"; };
+		A5AD836827ECA8E700B88CE6 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A5AD836C27ECBBFF00B88CE6 /* ForEachPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachPracticeView.swift; sourceTree = "<group>"; };
+		A5AD836F27ECBF5000B88CE6 /* ListPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPracticeView.swift; sourceTree = "<group>"; };
+		A5AD837127ECC14B00B88CE6 /* ListPracticeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPracticeDetailView.swift; sourceTree = "<group>"; };
+		A5AD837327ECC3E100B88CE6 /* HierarchyListPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchyListPracticeView.swift; sourceTree = "<group>"; };
+		A5AD837A27ECCF0200B88CE6 /* FormPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPracticeView.swift; sourceTree = "<group>"; };
 		A5EA1ED927EB57A40007B0F1 /* AsyncAwaitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EA1EDB27EB57A40007B0F1 /* AsyncAwaitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitPracticeApp.swift; sourceTree = "<group>"; };
 		A5EA1EDD27EB57A40007B0F1 /* AsyncAwaitPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitPracticeView.swift; sourceTree = "<group>"; };
@@ -84,6 +109,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A50CB3E727EC96AE008FB2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB3F927EC9DCD008FB2C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -147,6 +179,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A50CB3FD27EC9DCD008FB2C5 /* ContainerPractice */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB3FE27EC9DCD008FB2C5 /* ContainerPracticeApp.swift */,
+				A5AD836427ECA79100B88CE6 /* ContainerPracticeView.swift */,
+				A5AD836827ECA8E700B88CE6 /* ContentViewModel.swift */,
+				A5AD836A27ECBAD200B88CE6 /* LazyGrid */,
+				A5AD836B27ECBBE100B88CE6 /* ForEach */,
+				A5AD836E27ECBF3C00B88CE6 /* List */,
+				A5AD837527ECCB6900B88CE6 /* Form */,
+				A50CB40227EC9DCE008FB2C5 /* Assets.xcassets */,
+				A50CB40427EC9DCE008FB2C5 /* Preview Content */,
+			);
+			path = ContainerPractice;
+			sourceTree = "<group>";
+		};
+		A50CB40427EC9DCE008FB2C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB40527EC9DCE008FB2C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A5357DC327EAF1A20076D070 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +212,7 @@
 				A57BB85127EB08CE00C0046D /* NavigationPractice */,
 				A5EA1EDA27EB57A40007B0F1 /* AsyncAwaitPractice */,
 				A50CB3EB27EC96AE008FB2C5 /* TabViewPractice */,
+				A50CB3FD27EC9DCD008FB2C5 /* ContainerPractice */,
 				A5357DCD27EAF1A20076D070 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -169,6 +226,7 @@
 				A57BB85027EB08CD00C0046D /* NavigationPractice.app */,
 				A5EA1ED927EB57A40007B0F1 /* AsyncAwaitPractice.app */,
 				A50CB3EA27EC96AE008FB2C5 /* TabViewPractice.app */,
+				A50CB3FC27EC9DCD008FB2C5 /* ContainerPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +311,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A5AD836A27ECBAD200B88CE6 /* LazyGrid */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB40027EC9DCD008FB2C5 /* LazyVGridPracticeView.swift */,
+				A5AD836627ECA7F200B88CE6 /* LazyHGridPracticeView.swift */,
+			);
+			path = LazyGrid;
+			sourceTree = "<group>";
+		};
+		A5AD836B27ECBBE100B88CE6 /* ForEach */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD836C27ECBBFF00B88CE6 /* ForEachPracticeView.swift */,
+			);
+			path = ForEach;
+			sourceTree = "<group>";
+		};
+		A5AD836E27ECBF3C00B88CE6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD836F27ECBF5000B88CE6 /* ListPracticeView.swift */,
+				A5AD837127ECC14B00B88CE6 /* ListPracticeDetailView.swift */,
+				A5AD837327ECC3E100B88CE6 /* HierarchyListPracticeView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		A5AD837527ECCB6900B88CE6 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD837A27ECCF0200B88CE6 /* FormPracticeView.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
 		A5EA1EDA27EB57A40007B0F1 /* AsyncAwaitPractice */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +387,23 @@
 			name = TabViewPractice;
 			productName = TabViewPractice;
 			productReference = A50CB3EA27EC96AE008FB2C5 /* TabViewPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50CB3FB27EC9DCD008FB2C5 /* ContainerPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CB40727EC9DCE008FB2C5 /* Build configuration list for PBXNativeTarget "ContainerPractice" */;
+			buildPhases = (
+				A50CB3F827EC9DCD008FB2C5 /* Sources */,
+				A50CB3F927EC9DCD008FB2C5 /* Frameworks */,
+				A50CB3FA27EC9DCD008FB2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContainerPractice;
+			productName = ContainerPractice;
+			productReference = A50CB3FC27EC9DCD008FB2C5 /* ContainerPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A5357DCB27EAF1A20076D070 /* SwiftUI Practice */ = {
@@ -394,6 +504,9 @@
 					A50CB3E927EC96AE008FB2C5 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					A50CB3FB27EC9DCD008FB2C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A5357DCB27EAF1A20076D070 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -430,6 +543,7 @@
 				A57BB84F27EB08CD00C0046D /* NavigationPractice */,
 				A5EA1ED827EB57A40007B0F1 /* AsyncAwaitPractice */,
 				A50CB3E927EC96AE008FB2C5 /* TabViewPractice */,
+				A50CB3FB27EC9DCD008FB2C5 /* ContainerPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -441,6 +555,15 @@
 			files = (
 				A50CB3F427EC96AF008FB2C5 /* Preview Assets.xcassets in Resources */,
 				A50CB3F127EC96AF008FB2C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB3FA27EC9DCD008FB2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CB40627EC9DCE008FB2C5 /* Preview Assets.xcassets in Resources */,
+				A50CB40327EC9DCE008FB2C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +621,23 @@
 			files = (
 				A50CB3EF27EC96AE008FB2C5 /* TabViewPractice.swift in Sources */,
 				A50CB3ED27EC96AE008FB2C5 /* TabViewPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50CB3F827EC9DCD008FB2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CB40127EC9DCD008FB2C5 /* LazyVGridPracticeView.swift in Sources */,
+				A5AD836527ECA79100B88CE6 /* ContainerPracticeView.swift in Sources */,
+				A5AD836D27ECBBFF00B88CE6 /* ForEachPracticeView.swift in Sources */,
+				A5AD836727ECA7F200B88CE6 /* LazyHGridPracticeView.swift in Sources */,
+				A5AD837B27ECCF0200B88CE6 /* FormPracticeView.swift in Sources */,
+				A5AD837227ECC14B00B88CE6 /* ListPracticeDetailView.swift in Sources */,
+				A50CB3FF27EC9DCD008FB2C5 /* ContainerPracticeApp.swift in Sources */,
+				A5AD836927ECA8E700B88CE6 /* ContentViewModel.swift in Sources */,
+				A5AD837027ECBF5000B88CE6 /* ListPracticeView.swift in Sources */,
+				A5AD837427ECC3E100B88CE6 /* HierarchyListPracticeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +749,70 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.TabViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A50CB40827EC9DCE008FB2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContainerPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = GTB6BR222W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.ContainerPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50CB40927EC9DCE008FB2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContainerPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = GTB6BR222W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.ContainerPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1029,6 +1233,15 @@
 			buildConfigurations = (
 				A50CB3F527EC96AF008FB2C5 /* Debug */,
 				A50CB3F627EC96AF008FB2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50CB40727EC9DCE008FB2C5 /* Build configuration list for PBXNativeTarget "ContainerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CB40827EC9DCE008FB2C5 /* Debug */,
+				A50CB40927EC9DCE008FB2C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
