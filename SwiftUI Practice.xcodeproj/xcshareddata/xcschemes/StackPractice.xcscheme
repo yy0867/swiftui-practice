@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A57BB83927EAF61800C0046D"
-               BuildableName = "LazyStackPractice.app"
+               BuildableName = "StackPractice.app"
                BlueprintName = "StackPractice"
                ReferencedContainer = "container:SwiftUI Practice.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A57BB83927EAF61800C0046D"
-            BuildableName = "LazyStackPractice.app"
+            BuildableName = "StackPractice.app"
             BlueprintName = "StackPractice"
             ReferencedContainer = "container:SwiftUI Practice.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A57BB83927EAF61800C0046D"
-            BuildableName = "LazyStackPractice.app"
+            BuildableName = "StackPractice.app"
             BlueprintName = "StackPractice"
             ReferencedContainer = "container:SwiftUI Practice.xcodeproj">
          </BuildableReference>

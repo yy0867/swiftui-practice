@@ -17,10 +17,6 @@ struct OverlayPracticeView: View {
                 .overlay(alignment: .bottom) {
                     OverlayView()
                 }
-                .background(alignment: .top) {
-                    Rectangle()
-                        .foregroundColor(.gray)
-                }
         }
     }
 }
