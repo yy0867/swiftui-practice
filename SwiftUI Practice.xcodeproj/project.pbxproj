@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50CB3ED27EC96AE008FB2C5 /* TabViewPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB3EC27EC96AE008FB2C5 /* TabViewPracticeApp.swift */; };
+		A50CB3EF27EC96AE008FB2C5 /* TabViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CB3EE27EC96AE008FB2C5 /* TabViewPractice.swift */; };
+		A50CB3F127EC96AF008FB2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB3F027EC96AE008FB2C5 /* Assets.xcassets */; };
+		A50CB3F427EC96AF008FB2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50CB3F327EC96AF008FB2C5 /* Preview Assets.xcassets */; };
 		A5357DD027EAF1A20076D070 /* SwiftUI_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5357DCF27EAF1A20076D070 /* SwiftUI_PracticeApp.swift */; };
 		A5357DD227EAF1A20076D070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5357DD127EAF1A20076D070 /* ContentView.swift */; };
 		A5357DD427EAF1A20076D070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5357DD327EAF1A20076D070 /* Assets.xcassets */; };
@@ -38,6 +42,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50CB3EA27EC96AE008FB2C5 /* TabViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50CB3EC27EC96AE008FB2C5 /* TabViewPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPracticeApp.swift; sourceTree = "<group>"; };
+		A50CB3EE27EC96AE008FB2C5 /* TabViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPractice.swift; sourceTree = "<group>"; };
+		A50CB3F027EC96AE008FB2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50CB3F327EC96AF008FB2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5357DCC27EAF1A20076D070 /* SwiftUI Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5357DCF27EAF1A20076D070 /* SwiftUI_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeApp.swift; sourceTree = "<group>"; };
 		A5357DD127EAF1A20076D070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A50CB3E727EC96AE008FB2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5357DC927EAF1A20076D070 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,6 +128,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A50CB3EB27EC96AE008FB2C5 /* TabViewPractice */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB3EC27EC96AE008FB2C5 /* TabViewPracticeApp.swift */,
+				A50CB3EE27EC96AE008FB2C5 /* TabViewPractice.swift */,
+				A50CB3F027EC96AE008FB2C5 /* Assets.xcassets */,
+				A50CB3F227EC96AF008FB2C5 /* Preview Content */,
+			);
+			path = TabViewPractice;
+			sourceTree = "<group>";
+		};
+		A50CB3F227EC96AF008FB2C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A50CB3F327EC96AF008FB2C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A5357DC327EAF1A20076D070 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +155,7 @@
 				A57BB83B27EAF61800C0046D /* StackPractice */,
 				A57BB85127EB08CE00C0046D /* NavigationPractice */,
 				A5EA1EDA27EB57A40007B0F1 /* AsyncAwaitPractice */,
+				A50CB3EB27EC96AE008FB2C5 /* TabViewPractice */,
 				A5357DCD27EAF1A20076D070 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,6 +168,7 @@
 				A57BB83A27EAF61800C0046D /* StackPractice.app */,
 				A57BB85027EB08CD00C0046D /* NavigationPractice.app */,
 				A5EA1ED927EB57A40007B0F1 /* AsyncAwaitPractice.app */,
+				A50CB3EA27EC96AE008FB2C5 /* TabViewPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,6 +279,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A50CB3E927EC96AE008FB2C5 /* TabViewPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CB3F727EC96AF008FB2C5 /* Build configuration list for PBXNativeTarget "TabViewPractice" */;
+			buildPhases = (
+				A50CB3E627EC96AE008FB2C5 /* Sources */,
+				A50CB3E727EC96AE008FB2C5 /* Frameworks */,
+				A50CB3E827EC96AE008FB2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabViewPractice;
+			productName = TabViewPractice;
+			productReference = A50CB3EA27EC96AE008FB2C5 /* TabViewPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A5357DCB27EAF1A20076D070 /* SwiftUI Practice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5357DF027EAF1A20076D070 /* Build configuration list for PBXNativeTarget "SwiftUI Practice" */;
@@ -337,6 +391,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					A50CB3E927EC96AE008FB2C5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A5357DCB27EAF1A20076D070 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -372,11 +429,21 @@
 				A57BB83927EAF61800C0046D /* StackPractice */,
 				A57BB84F27EB08CD00C0046D /* NavigationPractice */,
 				A5EA1ED827EB57A40007B0F1 /* AsyncAwaitPractice */,
+				A50CB3E927EC96AE008FB2C5 /* TabViewPractice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A50CB3E827EC96AE008FB2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CB3F427EC96AF008FB2C5 /* Preview Assets.xcassets in Resources */,
+				A50CB3F127EC96AF008FB2C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5357DCA27EAF1A20076D070 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,6 +492,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A50CB3E627EC96AE008FB2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CB3EF27EC96AE008FB2C5 /* TabViewPractice.swift in Sources */,
+				A50CB3ED27EC96AE008FB2C5 /* TabViewPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5357DC827EAF1A20076D070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,6 +557,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A50CB3F527EC96AF008FB2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = GTB6BR222W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.TabViewPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50CB3F627EC96AF008FB2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabViewPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = GTB6BR222W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harry.TabViewPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A5357DEE27EAF1A20076D070 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -890,6 +1024,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A50CB3F727EC96AF008FB2C5 /* Build configuration list for PBXNativeTarget "TabViewPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50CB3F527EC96AF008FB2C5 /* Debug */,
+				A50CB3F627EC96AF008FB2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5357DC727EAF1A20076D070 /* Build configuration list for PBXProject "SwiftUI Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
