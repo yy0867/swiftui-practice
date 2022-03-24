@@ -9,9 +9,22 @@ import SwiftUI
 
 @main
 struct AsyncAwaitPracticeApp: App {
+    
+    let container = DIContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AsyncAwaitPracticeView(viewModel: container.makeViewModel())
         }
+    }
+}
+
+class DIContainer {
+    func makeRepository() -> DataRepository {
+        return TodoDataRepository()
+    }
+    
+    func makeViewModel() -> TodoViewModel {
+        return TodoViewModel(repository: makeRepository())
     }
 }
